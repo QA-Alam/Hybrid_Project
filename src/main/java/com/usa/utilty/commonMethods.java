@@ -12,6 +12,7 @@ import java.util.concurrent.Callable;
 import java.util.concurrent.TimeUnit;
 import java.util.function.Function;
 import org.apache.commons.io.FileUtils;
+import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.commons.net.util.Base64;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -54,6 +55,11 @@ public class commonMethods {
 		return DateValue;
 	}
 
+	// Created for generating random string for Unique email
+	public static String randomestring() {
+		String generatedString1 = RandomStringUtils.randomAlphabetic(5);
+		return ("Alam" + generatedString1 + "@gmail.com");
+	}
 	// commonMethods.findElement(driver, locator, 30);
 	@SuppressWarnings({ "deprecation", "unused" })
 	private static WebElement findElement(final WebDriver driver, final By locator, final int timeoutSeconds) {

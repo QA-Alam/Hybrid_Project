@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37" started-at="2022-03-27T21:57:55Z" finished-at="2022-03-27T21:57:55Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37" started-at="2022-03-27T21:57:55Z" finished-at="2022-03-27T21:57:55Z">
+      <class name="practice.collections.codes.ListExample">
+        <test-method status="PASS" signature="linkListTest()[pri:0, instance:practice.collections.codes.ListExample@8297b3a]" name="linkListTest" duration-ms="10" started-at="2022-03-27T21:57:55Z" finished-at="2022-03-27T21:57:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkListTest -->
+      </class> <!-- practice.collections.codes.ListExample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
